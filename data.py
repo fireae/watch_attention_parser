@@ -13,7 +13,7 @@ class StrToBytes:
 
 
 def dataIterator(feature_file,label_file,dictionary,batch_size,batch_Imagesize,maxlen,maxImagesize):
-    
+    print(feature_file)
     fp=open(feature_file,'rb')
     features=pkl.load(fp)
     fp.close()
